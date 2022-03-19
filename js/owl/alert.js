@@ -1,0 +1,1 @@
+alert('ENFRENTE SEU MEDO AQUI!');

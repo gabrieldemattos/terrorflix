@@ -1,0 +1,35 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+@font-face {
+	font-family:Titulo;
+	src:url(../fontes/MortifiedDrip.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preta);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family:Titulo;
+    font-size: 40px;
+}
