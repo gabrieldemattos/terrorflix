@@ -1,0 +1,40 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .sinopse{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 100px;
+    }
+
+    .botao {
+        margin-top: 50px;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width:700px){
+    .container3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:700px){
+    .nomesfinais{
+        display: block;
+    }
+}
+
