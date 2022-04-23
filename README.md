@@ -1,7 +1,7 @@
 # 								Terrorflix
 Assistindo as aulas do bootcamp "Take Blip Web Developer", oferecido pela Digital Innovation One, foi possível criar a interface da Netflix, e portanto, desenvolver algo semelhante, acrescentando mais detalhes e mudando a ideia de filmes de todos os gêneros para somente filmes do gênero Terror.
 
-![tela-principal](C:\terrorflix\screenshots\tela-principal.png)
+![tela-principal](https://raw.githubusercontent.com/gabrieldemattos/terrorflix/main/screenshots/catalagos.png)
 
 ![catalagos](C:\terrorflix\screenshots\catalagos.png)
 
