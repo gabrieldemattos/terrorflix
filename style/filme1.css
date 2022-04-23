@@ -15,7 +15,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(15, 15, 15);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
@@ -24,7 +24,7 @@ header .container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
  }
 
  header .logo{
@@ -32,6 +32,7 @@ header .container{
     color: red;
     font-family:Titulo;
     font-size: 40px;
+    margin-right: 50px;
 }
 
 header nav a{
@@ -44,6 +45,10 @@ header nav a:hover{
     color: #fff;
 }
 
+.botoesInicio{
+    margin-right: 300px;
+}
+
 .container{
     margin-left: 20px;
 }
@@ -51,6 +56,68 @@ header nav a:hover{
 .container2{
     color: white;
     margin-right: 150px;
+}
+
+#searchbox {
+    width: 225px;
+    background: url(http://1.bp.blogspot.com/-dwLNyhnHlTg/VEQZwf9drLI/AAAAAAAAAlg/rbd0HN4EZrY/s1600/search-box.png) no-repeat;
+    }
+    #searchbox input {
+        outline: none;
+    }
+    input:focus::-webkit-input-placeholder {
+        color: transparent;
+    }
+    input:focus:-moz-placeholder {
+        color: transparent;
+    }
+    input:focus::-moz-placeholder {
+        color: transparent;
+    }
+    #searchbox input[type="text"] {
+    background: transparent;
+    border: 0px;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 14px;
+        color: #f2f2f2 !important;
+        padding: 10px 35px 10px 20px;
+        width: 220px;
+    }
+    #searchbox input[type="text"]:focus {
+    color: #fff;
+    }
+    #button-submit{
+    background: url(http://4.bp.blogspot.com/-4MYBYE0i0Xk/VEQYlljvriI/AAAAAAAAAlQ/_TRkRG5EX1c/s1600/search-icon.png) no-repeat;
+    margin-left: -40px;
+    border-width: 0px;
+    width: 40px;
+    height: 50px;
+    }
+    #button-submit:hover {
+    background: url(http://4.bp.blogspot.com/-6S4K8eHPM-c/VEQdf7l84GI/AAAAAAAAAls/j7_kGSpkIfg/s1600/search-icon-hover.png);
+    }
+
+#ano{
+    margin-left: 5px;
+    margin-right: 1px;
+}
+
+#idade{
+    padding: 0px 2px;
+    background-color: orange;
+    border-radius: 2px 2px;
+}
+
+#hd{
+    padding: 1px 1px 1px 1px;
+    background-color: gray;
+    font-size: small;
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    border-radius: 2px 2px;
 }
 
 .container3{
@@ -92,7 +159,11 @@ header nav a:hover{
     margin-top: 80px;
     margin-left: 20px;
     margin-right: 30px;
-    background: url('/img/mini1.jpg');
+    background: url('../img/mini1.jpg');
+    background-color: #F23005;
+    -webkit-box-shadow: 9px 7px 30px rgba(50, 50, 50, 0.77);
+    -moz-box-shadow:    9px 7px 30px rgba(50, 50, 50, 0.77);
+    box-shadow:         9px 7px 30px rgba(50, 50, 50, 0.77);
 
 
     background-size: cover;
